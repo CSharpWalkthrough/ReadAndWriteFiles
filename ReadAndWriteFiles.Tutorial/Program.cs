@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ReadAndWriteFiles.Tutorial
 {
     /// <summary>
-    /// A program to demonstrate the use of System.IO methods to read and 
+    /// A program to showcase the use of System.IO methods to read and 
     /// write to files. Use of breakpoints and debugging is suggested.
     /// </summary>
     class Program
