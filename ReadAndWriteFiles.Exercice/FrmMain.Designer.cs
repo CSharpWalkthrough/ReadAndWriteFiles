@@ -41,12 +41,12 @@
             this.lstReader.IntegralHeight = false;
             this.lstReader.Location = new System.Drawing.Point(29, 61);
             this.lstReader.Name = "lstReader";
-            this.lstReader.Size = new System.Drawing.Size(299, 329);
+            this.lstReader.Size = new System.Drawing.Size(299, 264);
             this.lstReader.TabIndex = 0;
             // 
             // rtxWriter
             // 
-            this.rtxWriter.Location = new System.Drawing.Point(453, 61);
+            this.rtxWriter.Location = new System.Drawing.Point(400, 61);
             this.rtxWriter.Name = "rtxWriter";
             this.rtxWriter.Size = new System.Drawing.Size(299, 149);
             this.rtxWriter.TabIndex = 1;
@@ -54,9 +54,9 @@
             // 
             // btnAppend
             // 
-            this.btnAppend.Location = new System.Drawing.Point(453, 243);
+            this.btnAppend.Location = new System.Drawing.Point(400, 231);
             this.btnAppend.Name = "btnAppend";
-            this.btnAppend.Size = new System.Drawing.Size(112, 37);
+            this.btnAppend.Size = new System.Drawing.Size(141, 37);
             this.btnAppend.TabIndex = 3;
             this.btnAppend.Text = "Append to file";
             this.btnAppend.UseVisualStyleBackColor = true;
@@ -64,9 +64,9 @@
             // 
             // btnOverride
             // 
-            this.btnOverride.Location = new System.Drawing.Point(635, 243);
+            this.btnOverride.Location = new System.Drawing.Point(558, 231);
             this.btnOverride.Name = "btnOverride";
-            this.btnOverride.Size = new System.Drawing.Size(117, 37);
+            this.btnOverride.Size = new System.Drawing.Size(141, 37);
             this.btnOverride.TabIndex = 4;
             this.btnOverride.Text = "Override file content";
             this.btnOverride.UseVisualStyleBackColor = true;
@@ -84,9 +84,9 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(453, 301);
+            this.btnReset.Location = new System.Drawing.Point(400, 288);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(112, 37);
+            this.btnReset.Size = new System.Drawing.Size(299, 37);
             this.btnReset.TabIndex = 6;
             this.btnReset.Text = "Reset file";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(741, 374);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.cboFiles);
             this.Controls.Add(this.btnOverride);
