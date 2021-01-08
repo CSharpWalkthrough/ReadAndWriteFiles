@@ -66,3 +66,7 @@ using (StreamWriter sw = File.AppendText(path))
     sw.WriteLine("We use the StreamWriter object");
 }
 ```
+
+## Resources
+
+[File Class - Microsoft docs](https://docs.microsoft.com/en-us/dotnet/api/system.io.file?view=net-5.0)
