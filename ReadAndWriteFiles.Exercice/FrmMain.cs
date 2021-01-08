@@ -20,59 +20,37 @@ namespace ReadAndWriteFiles.Exercice
             cboFiles.Items.AddRange(files);
             cboFiles.SelectedIndex = 0;
         }
-
-        private void btnAppend_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(rtxWriter.Text))
-                return;
-            string content = rtxWriter.Text + Environment.NewLine;
-            string file = cboFiles.SelectedItem.ToString();
-            AppendToFile(content, file);
-        }
-
-        private void btnOverride_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(rtxWriter.Text))
-                return;
-            string content = rtxWriter.Text + Environment.NewLine;
-            string file = cboFiles.SelectedItem.ToString();
-            OverrideFile(content, file);
-        }
-
         private void cboFiles_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string file = cboFiles.SelectedItem.ToString();
-            ReadFile(file);
+            // TODO: Display the selected file's content in the listbox
         }
 
         private void ReadFile(string file)
         {
-            lstReader.Items.Clear();
-            if (!File.Exists(file))
-                return;
-
-            string[] lines = File.ReadAllLines(file);
-            foreach (string line in lines)
-                lstReader.Items.Add(line);
+            // TODO: Read the file passed as parameter and display its content in the listbox
         }
 
+        private void btnAppend_Click(object sender, EventArgs e)
+        {
+            // TODO: Call the AppendToFile method, richTextBox should not be empty
+        }
         private void AppendToFile(string content, string file)
         {
-            File.AppendAllText(file, content);
-            ReadFile(file);
+            // TODO: Append the content to the file and refresh the listbox
         }
 
+        private void btnOverride_Click(object sender, EventArgs e)
+        {
+            // TODO: Call the OverrideFile method, richTextBox should not be empty
+        }
         private void OverrideFile(string content, string file)
         {
-            File.WriteAllText(file, content);
-            ReadFile(file);
+            // TODO: Override the file's content and refresh the listbox
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            string file = cboFiles.SelectedItem.ToString();
-            File.WriteAllText(file, string.Empty);
-            ReadFile(file);
+            // TODO: Reset the file's content to an empty string
         }
     }
 }
