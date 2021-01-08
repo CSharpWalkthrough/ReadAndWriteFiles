@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndWriteFiles.Tutorial", "ReadAndWriteFiles.Tutorial\ReadAndWriteFiles.Tutorial.csproj", "{C27C81F1-BFAF-4845-BB5C-3194409575B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndWriteFiles.Exercice", "ReadAndWriteFiles.Exercice\ReadAndWriteFiles.Exercice.csproj", "{BF0B915F-4998-4C35-B653-95636BDBF577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C27C81F1-BFAF-4845-BB5C-3194409575B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27C81F1-BFAF-4845-BB5C-3194409575B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27C81F1-BFAF-4845-BB5C-3194409575B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0B915F-4998-4C35-B653-95636BDBF577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0B915F-4998-4C35-B653-95636BDBF577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0B915F-4998-4C35-B653-95636BDBF577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0B915F-4998-4C35-B653-95636BDBF577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
